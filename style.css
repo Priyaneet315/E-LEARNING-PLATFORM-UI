@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border: 1px solid #ddd;
+}
+
+.course-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+}
+
+.course-box a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ccc;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  height: 20px;
+  background-color: #27ae60;
+}
