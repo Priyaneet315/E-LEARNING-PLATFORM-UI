@@ -26,3 +26,6 @@ For styling, a basic CSS file (style.css) was created. The design is minimal and
 Overall, the front-end interface is interactive in terms of navigation and structure. Users can navigate between pages by clicking the links. The content is organized and easy to read, even with simple code. This project provided insight into how basic HTML and CSS can be used to create a usable and informative website layout. It also offered practical experience in structuring multi-page applications and embedding multimedia content.
 
 The deliverable is a styled and interactive front-end that features course listings, navigation, embedded video, and a progress display. It is ready to be expanded in the future by adding forms, user login, quizzes, or dynamic features using JavaScript or backend tools.
+
+*OUTPUT: <img width="1201" height="783" alt="Image" src="https://github.com/user-attachments/assets/366b55aa-d3d6-402f-bae5-a70a728ac3f3" />
+<img width="1202" height="787" alt="Image" src="https://github.com/user-attachments/assets/cd1ec6ff-a6f6-4639-8ce6-e8266a0218a8" />
