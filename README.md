@@ -21,7 +21,7 @@ After the homepage was ready, a second page called course.html was developed. Th
 
 Following the video section is a simple progress tracking system. Since no JavaScript or backend was permitted, progress is shown manually with a progress bar made using HTML and CSS. A container <div> represents the full progress bar, and a smaller inner <div> with a defined width (like 60%) visually indicates the user’s current progress in the course.
 
-For styling, a basic CSS file (style.css) was created. The design is minimal and uses standard HTML tags like <div>, <h1>, <h2>, <p>, and <a>. No flexbox, grid, or JavaScript was implemented. Color choices create a clean and readable look, with a dark header and light background. Boxes are made with borders and padding to clearly separate each section.
+For styling, a basic CSS file (style.css) was created. The design is minimal and uses standard HTML tags. No flexbox, grid, or JavaScript was implemented. Color choices create a clean and readable look, with a dark header and light background. Boxes are made with borders and padding to clearly separate each section.
 
 Overall, the front-end interface is interactive in terms of navigation and structure. Users can navigate between pages by clicking the links. The content is organized and easy to read, even with simple code. This project provided insight into how basic HTML and CSS can be used to create a usable and informative website layout. It also offered practical experience in structuring multi-page applications and embedding multimedia content.
 
