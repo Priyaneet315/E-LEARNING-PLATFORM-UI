@@ -13,19 +13,23 @@
 *MENTOR*: NEELA SANTOSH
 
 *DESCRIPTION OF THE TASK*:
-       The fourth task was to design a basic front-end interface for an e-learning platform using only HTML and CSS. The main goal was to create a multi-page layout that includes course listings, course details, progress tracking, and embedded video support. This would demonstrate how an e-learning platform might look and work from a user's perspective without using any complex design techniques.
+       The fourth task This project involved building a simple e-learning platform using basic HTML and CSS. The main goal was to create a two-page layout. The first page displays available courses, while the second page shows course details, including video content and progress tracking.
 
-The first step was to create the homepage (index.html). This page serves as the course listing screen, allowing users to see a list of available courses. For simplicity, three sample courses were included: HTML Basics, CSS for Beginners, and JavaScript Essentials. Each course has a brief description and a link to the course detail page. This layout simulates a real platform where students can browse available content.
+The homepage is designed to feature a title at the top, followed by navigation links and a list of courses. Each course appears in a box that includes a heading, a short description, and a link to view the full course. Three sample courses are included: HTML Basics, CSS for Beginners, and JavaScript Essentials.
 
-After the homepage was ready, a second page called course.html was developed. This page displays the course detail view. It provides more information about a specific course, in this case, HTML Basics. The page begins with a brief description of what the user will learn. Below that, a sample video is embedded using the basic <video> tag, showing that learning content can be delivered visually, as is common on e-learning platforms.
+The second page serves as the course detail page. It also has a title and navigation at the top. Below that, the course description appears. A sample video is embedded beneath the description to simulate a video lesson. After the video section, a progress bar displays how much of the course has been completed.
 
-Following the video section is a simple progress tracking system. Since no JavaScript or backend was permitted, progress is shown manually with a progress bar made using HTML and CSS. A container <div> represents the full progress bar, and a smaller inner <div> with a defined width (like 60%) visually indicates the user’s current progress in the course.
+Progress is shown in two ways. First, a line of text indicates the percentage, such as “Progress: 60%.” Below it, a horizontal bar displays the filled portion visually. The width of the filled bar adjusts using inline styling in the HTML, without any JavaScript.
 
-For styling, a basic CSS file (style.css) was created. The design is minimal and uses standard HTML tags. No flexbox, grid, or JavaScript was implemented. Color choices create a clean and readable look, with a dark header and light background. Boxes are made with borders and padding to clearly separate each section.
+Styling is applied with an external CSS file. The design is simple and clean. The light background contrasts with dark text for readability. The top section features a dark background with white text, highlighting the platform name and making the navigation more visible.
 
-Overall, the front-end interface is interactive in terms of navigation and structure. Users can navigate between pages by clicking the links. The content is organized and easy to read, even with simple code. This project provided insight into how basic HTML and CSS can be used to create a usable and informative website layout. It also offered practical experience in structuring multi-page applications and embedding multimedia content.
+Course boxes are styled with a light border and padding to set them apart from other content. Margins create space between them. The layout is vertical, so everything stacks clearly on top of each other, allowing for easy navigation without advanced layout techniques.
 
-The deliverable is a styled and interactive front-end that features course listings, navigation, embedded video, and a progress display. It is ready to be expanded in the future by adding forms, user login, quizzes, or dynamic features using JavaScript or backend tools.
+For the progress bar, a simple horizontal container serves as the background. Inside that container, another bar of a different color shows the progress level. The width of this filled section is adjusted manually to match the displayed percentage.
+
+This entire design was created without using any advanced CSS features. There were no flexbox, grid, animations, media queries, or JavaScript included. The project relies solely on basic layout and styling methods, such as colors, spacing, borders, and font sizes. Navigation occurs by linking between the two HTML pages.
+
+In summary, this project shows how to create a basic multi-page e-learning interface using only beginner-level HTML and CSS. It features a course listing, simple navigation, embedded video content, and a manual progress indicator. The structure is clear, easy to read, and ready to expand if needed.
 
 *OUTPUT: <img width="1201" height="783" alt="Image" src="https://github.com/user-attachments/assets/366b55aa-d3d6-402f-bae5-a70a728ac3f3" />
 <img width="1202" height="787" alt="Image" src="https://github.com/user-attachments/assets/cd1ec6ff-a6f6-4639-8ce6-e8266a0218a8" />
